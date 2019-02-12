@@ -1,0 +1,31 @@
+body{
+    background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2806956/starwarsbackground.JPG");
+}
+
+img{
+    height:45px;
+    width:90px;
+    margin:5px;
+}
+
+#attacker,#defenders,#charactersSelection,#defender{
+
+}
+
+.gameLabel, #message{
+    color:white;
+    margin:5px;
+}
+
+.row{
+
+    height:150px
+}
+
+#fightButton{
+    width:50px;
+    height:25px;
+    margin: 5px;
+    align-content: center;
+    font-size: small;
+}
