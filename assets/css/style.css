@@ -19,7 +19,7 @@ img{
 
 .row{
 
-    height:90px
+    height:130px
 }
 
 #fightButton{
@@ -28,4 +28,19 @@ img{
     margin: 5px;
     align-content: center;
     font-size: small;
+}
+
+.card{
+    display: inline-block;
+    margin: 5px;
+    height: 60px;
+
+}
+
+.card:hover{
+    background-color: cornflowerblue;
+}
+.card-title{
+    font-size: small;
+    color: white;
 }
