@@ -226,9 +226,9 @@ $("document").ready(()=>{
         if(newGame.getWinner()==="no winner"){return;}
 
         function reloadGame() {
-            $("#defenders img").remove();
-            $("#attacker img").remove();
-            $("#defender img").remove();
+            $("#defenders .card").remove();
+            $("#attacker .card").remove();
+            $("#defender .card").remove();
             $("#message").empty();
             newGame = new StarWarsGame();
             loadCharacters();
